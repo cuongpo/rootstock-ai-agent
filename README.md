@@ -1,11 +1,10 @@
 # Blockchain AI Agent
 
-An intelligent AI agent for blockchain ecosystems that can interact with users via Telegram and perform various operations including token airdrops and blockchain queries across multiple networks including Neo X chain and Rootstock.
+An intelligent AI agent for blockchain ecosystems that can interact with users via Telegram and perform various operations including token airdrops and blockchain queries on Rootstock.
 
 ## Features
 
 - 🤖 AI-powered conversational interface
-- 💎 Multi-blockchain integration (Neo X chain, Rootstock)
 - 🎁 Automated token operations and queries
 - 📱 Telegram bot integration
 - 🔗 EVM compatibility
@@ -17,28 +16,19 @@ An intelligent AI agent for blockchain ecosystems that can interact with users v
 
 - Node.js (v16 or higher)
 - Telegram Bot Token
-- Blockchain Private Keys (Neo X, Rootstock)
 - OpenAI API Key
 
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd eliza
+git clone https://github.com/cuongpo/rootstock-ai-agent.git
 pnpm install
 pnpm build
-pnpm start --characters="./agent/characters/neo.character.json"
+pnpm start --characters="./agent/characters/rootstock.character.json"
 ```
 
 ## Supported Blockchain Networks
-
-### Neo X Chain
--   AI NEO Token Contract: 0x32D978Ea8E6aD44210dE0e39AE9B2171e08dB257
--   Total Supply: 1 billion tokens
--   Decimals: 18
--   Symbol: AINEO
--   View on Explorer: https://xexplorer.neo.org/token/0x32D978Ea8E6aD44210dE0e39AE9B2171e08dB257
 
 ### Rootstock (RSK) Mainnet
 -   Network: Bitcoin-secured EVM-compatible sidechain
